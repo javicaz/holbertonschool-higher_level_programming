@@ -1,2 +1,2 @@
 #!/bin/bash
-Best School: 98 "$PYCODE'
+Best School: 98 <<<< $PYCODE
