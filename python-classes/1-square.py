@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""Class Square."""
+"""The class is geometics figures."""
 
 
 class Square:
-    """Print the square."""
+    """Print square."""
 
     def __init__(self, size):
         """Initialize a new data square."""
