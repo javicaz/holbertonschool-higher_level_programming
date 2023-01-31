@@ -5,6 +5,6 @@
 class Square:
     """Print the square."""
 
-    def _init_(self, size):
+    def __init__(self, size):
         """Initialize a new data square."""
         self._size = size
