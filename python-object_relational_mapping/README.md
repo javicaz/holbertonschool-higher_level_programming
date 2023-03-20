@@ -1,0 +1,1 @@
+This is how you connect an SQL database to Python
