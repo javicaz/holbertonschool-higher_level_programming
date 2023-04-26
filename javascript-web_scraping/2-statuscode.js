@@ -1,11 +1,7 @@
 #!/usr/bin/node
-// This script display the status code of a GET request.
 const request = require('request');
+const endpoint = process.argv[2];
 
-request.get(process.argv[2])
-  .then(res => {
-    console.log('code:', res.status);
-  })
-  .catch(err => {
-    console.log('code:', err.response.status);
-  });
+request(endpoint, (err, res, body) => {
+  if (!err) console.log('code:', res.statusCode);
+});
